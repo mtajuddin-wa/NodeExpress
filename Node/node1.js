@@ -19,5 +19,5 @@ http.createServer((req,res) => {
             res.end("Page Not Found!");
     };
 }).listen(8080, 'localhost', () => {
-    console.log("SErver is running");
+    console.log("Server is running");
 });
